@@ -1,0 +1,81 @@
+style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            scroll-behavior: smooth;
+            background-color: #88888;
+        }
+
+        /* Navbar */
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: black;
+            padding: 10px 0;
+            text-align: center;
+            transition: background 0.3s;
+            z-index: 1000;
+        }
+
+        nav a {
+            color: yellow;
+            text-decoration: none;
+            padding: 10px 20px;
+            display: inline-block;
+        }
+
+        nav a:hover {
+            background: white;
+            color: black;
+        }
+
+        /* Scrolled Navbar */
+        .scrolled {
+            background: gray;
+        }
+
+        /* Sections */
+        section {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 24px;
+            text-align: center;
+            padding: 20px;
+            margin-top: 60px; /* To prevent content overlap with fixed navbar */
+        }
+
+        #home {
+            background-color:#1abc9c;
+            color:orange;
+        }
+
+        #about {
+            background-color: #3498db;
+            color:orange;
+        }
+
+        #services {
+            background-color: #e74c3c;
+            color:yellow;
+        }
+
+        #contact {
+            background-color: #f39c12;
+            color: blue;
+        }
+
+        /* Paragraph Styles */
+        .section-content {
+            max-width: 800px;
+            margin: 20px auto;
+            color: #333;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+    </style>
